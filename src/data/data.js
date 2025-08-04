@@ -6,7 +6,7 @@ import controlImage from '@/icons/Ficon.svg';
 
 let carData = [
     {
-        "id": "nor datsd2",
+        "id": "nor datsd23",
         "location": "New York",
         "body_type": "Convertible",
         "year": 2023,
