@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/specifications/styles.css"],"sourcesContent":[".specificationsBlock{\n    margin-top: 80px;\n}\n\n.specificationsTitle{\n    margin-top: 15px;\n}\n\n.itemsBlock{\n    display: flex;\n}\n\n.items{\n    display: flex;\n    flex-direction: column;\n    justify-content: start;\n    align-items: start;\n    margin-top: 20px;\n    margin-right: 130px;\n}\n\n.itemBlock{\n    display: flex;\n    align-items: center;\n    margin: 5px 0;\n}\n\n.itemBlock p{\n    font-size: 18px;\n    font-weight: bold;\n}\n\n.itemBlock .itemValue{\n    color: gray;\n    font-size:14px;\n}\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;AAIA;;;;AAIA;;;;;;;;;AASA;;;;;;AAMA;;;;;AAKA"}}]
-}

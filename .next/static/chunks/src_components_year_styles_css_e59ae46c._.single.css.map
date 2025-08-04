@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/year/styles.css"],"sourcesContent":[".titleYear{\n    font-size: 20px;\n    padding-bottom: 10px;\n    margin-bottom: 10px;\n}\n\n.block{\n    margin-top: 20px;\n}\n\n.selects{\n    display: flex;\n    justify-content: space-between;\n}\n\n.to{\n    padding: 12px;\n    text-align: center;\n    font-size: 30px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;AAKA"}}]
-}

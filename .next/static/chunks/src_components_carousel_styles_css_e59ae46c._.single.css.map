@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/carousel/styles.css"],"sourcesContent":[".carouselBlock {\n    width: 100%;\n}\n\n.photoBlock {\n    width: 100%;\n    height: 500px;\n}\n\n.carPhotos {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n\n.carousel .thumbs-wrapper {\n    margin: 10px 0;\n    overflow: hidden;\n    display: flex;\n    justify-content: space-between;\n    height: 105px;\n}\n\n.carousel .thumb {\n    border: 2px solid white !important;\n    border-radius: 15px;\n    padding: 0 !important;\n    transition: border 0.3s;\n    width: 150px !important;\n    height: 100%;\n    cursor: pointer;\n}\n\n.carousel .thumb.selected {\n    border: 4px solid transparent !important;\n}\n\n.carousel .thumb img {\n    object-fit: cover;\n    width: 100%;\n    height: 100%;\n}"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;AAKA;;;;;;AAMA;;;;;;;;AAQA;;;;;;;;;;AAUA;;;;AAIA"}}]
-}

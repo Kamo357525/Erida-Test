@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/finder/styles.css"],"sourcesContent":[".finder{\n    display: flex;\n    justify-content: space-between;\n    margin-top: 70px;\n    margin-bottom: 40px;\n}\n\n.finderItem{\n    background-color: rgba(21, 34, 48, 100%);\n    border-radius: 5px;\n    width: 230px;\n    height: 220px;\n    padding: 50px\n}\n\n.finderTitle{\n    margin-top: 13px;\n}"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;;;AAQA"}}]
-}

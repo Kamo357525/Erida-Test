@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///home/erida-employee/Desktop/test/Erida-Test/src/app/page.js"],"sourcesContent":["// import Header from \"@/components/header\";\n// import Footer from \"@/components/footer\";\n// import HomeBody from \"@/components/homeBody\";\n//\n// export default function Home() {\n//     return (\n//         <div>\n//             <HomeBody/>\n//         </div>\n//     );\n// }\n"],"names":[],"mappings":"AAAA,4CAA4C;AAC5C,4CAA4C;AAC5C,gDAAgD;AAChD,EAAE;AACF,mCAAmC;AACnC,eAAe;AACf,gBAAgB;AAChB,0BAA0B;AAC1B,iBAAiB;AACjB,SAAS;AACT,IAAI","debugId":null}}]
-}
