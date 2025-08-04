@@ -1,0 +1,53 @@
+.priceBlock{
+    margin-top: 30px;
+}
+
+.inputsBlock{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputBlock{
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid rgba(29,39,53,0.9);
+    align-items: center;
+    padding: 3px;
+}
+input {
+    width: 150px;
+    padding: 10px 15px;
+    font-size:18px;
+    border: 2px solid rgba(0, 123, 255, 0);
+    background-color:  rgba(0, 123, 255, 0);
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.drob{
+    font-size: 30px;
+    color: white;
+}
+
+.price{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.titlePrice{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}

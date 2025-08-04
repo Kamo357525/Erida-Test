@@ -1,0 +1,123 @@
+.cars{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.carsBlock{
+    margin-top: 50px;
+}
+
+.carBlockInters{
+    width: calc(100% / 4.3);
+    min-height: 600px;
+    height: auto;
+    border: 1px solid #999;
+    border-radius: 11px;
+    transition: 0.5s;
+}
+.carBlockInters:hover{
+    box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
+}
+
+.carPhotoBlock{
+    width: 100%;
+    height: 45%;
+}
+
+.carImageInters{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*border:2px solid transparent;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.iconBlock{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.iconImage{
+    width: 18px;
+    height: 18px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.dateItem{
+    color: gray;
+    font-size: 20px;
+}
+
+.infoBlockItems{
+    padding: 20px;
+}
+
+.infoInterested{
+    display: flex;
+    border-top: 1px solid gray;
+    padding: 25px 0;
+}
+
+.iconInfoBlockInterested{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.iconInfoBlockInterested p{
+    margin-left: 10px;
+    color: gray;
+    font-size: 22px ;
+}
+
+.iconImageInterested{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+
+
+.mileage{
+    margin-left: 30px;
+}
+
+.priceInterestedItem p{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.markModelYear{
+    color: gray;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.markModelTitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.markModel{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}

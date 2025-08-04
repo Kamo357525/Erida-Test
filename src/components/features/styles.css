@@ -1,0 +1,31 @@
+.featuresTitle{
+    margin-bottom: 30px;
+}
+
+.categoryBlock{
+    margin: 20px 0;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoryTitle{
+    font-size: 18px;
+}
+
+.isOpen{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.itemsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    list-style-type: disc;
+    padding-left: 20px;
+}

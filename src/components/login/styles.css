@@ -1,0 +1,41 @@
+.userBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 112px;
+    height: 40px;
+    background-color: rgba(216, 81,81, 100%);
+    border-radius: 10px;
+
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin: auto 12px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.sell:hover{
+    cursor: pointer;
+}
+
+.sellAdd{
+    font-size: 18px;
+    margin: 0 4px;
+}
+
+.add{
+    font-size: 22px;
+}

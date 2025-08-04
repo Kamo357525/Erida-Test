@@ -1,0 +1,91 @@
+.checkBoxHome{
+    margin-top: 20px;
+}
+
+.titles{
+
+}
+.checkBox{
+    margin-bottom: 8px;
+
+}
+
+.checkBoxName{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    margin-right: 8px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.custom-checkbox input:checked + .checkmark {
+    transition: 1s;
+    background-color: white;
+    border: 3px solid white;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    opacity: 0;
+    transform: rotate(45deg) scale(0.8);
+    transition: all 0.2s ease;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+    opacity: 1;
+}
+
+.checkBoxList{
+    max-width: 850px;
+}
+
+.scroll-box {
+    max-height: 157px;
+    overflow-y: auto;
+    border-radius: 3px;
+}
+
+.scroll-box::-webkit-scrollbar {
+    width: 3px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+    opacity: 0;
+    border-radius: 1px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background: gray;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

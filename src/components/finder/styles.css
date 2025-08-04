@@ -1,0 +1,18 @@
+.finder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.finderItem{
+    background-color: rgba(21, 34, 48, 100%);
+    border-radius: 5px;
+    width: 240px;
+    height: 220px;
+    padding: 50px
+}
+
+.finderTitle{
+    margin-top: 13px;
+}

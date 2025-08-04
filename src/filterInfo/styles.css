@@ -1,0 +1,43 @@
+.filterInfoBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.filterInfoBlock{
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.itemBlock{
+    display: flex;
+    align-items: center;
+}
+
+.result{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.itemFilterInfo{
+    display: flex;
+    align-items: center;
+    background-color: rgba(51,61,76, 90%);
+    margin: auto 6px;
+    border-radius: 20px;
+    padding: 9px;
+}
+
+.clear{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.close{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px
+}

@@ -1,0 +1,21 @@
+.logoBody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoBody:hover{
+    cursor: pointer;
+}
+
+.logoImage{
+    width: 34px;
+    height: 34px;
+}
+
+.titleLogo{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+}

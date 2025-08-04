@@ -1,0 +1,45 @@
+.show-more-btn {
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    text-decoration: underline;
+    transition: transform 0.2s ease;
+    margin: 20px 0;
+}
+
+.show-more-btn:hover {
+    transform: scale(1.05);
+}
+
+.description{
+    margin-top: 15px;
+}
+
+.descriptionBlock{
+    margin-top: 40px;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.infoItem{
+    display: flex;
+    align-items: center;
+}
+
+.droob{
+    margin: 0 20px;
+}
+
+.infoKey{
+    color: gray;
+}

@@ -1,0 +1,100 @@
+.footer{
+    margin-top: 80px;
+}
+
+.infoBlock{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.itemBlock{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoIcon{
+    width: 23px;
+    height: 23px;
+    margin: 0 10px;
+}
+
+.titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.titleName{
+    margin-bottom: 25px;
+    font-size: 22px;
+    /*cursor: pointer;*/
+}
+
+.titleItems:hover{
+    cursor: pointer;
+}
+
+.titleItems{
+    margin:13px 0;
+    font-size: 18px;
+}
+
+.socBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.iconsSoc{
+    width: 35px;
+    height: 35px;
+}
+
+.iconItems{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 7px;
+    background-color: gray;
+    padding: 10px;
+    width: 165px;
+    height: 55px;
+}
+
+.iconGoogle{
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.studioBlock{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studioTitleBlock{
+    display: flex;
+    align-items: center;
+}
+
+.studioIcon{
+    margin: 0 15px;
+    cursor: pointer;
+    width: 22px;
+    height: 20px;
+}

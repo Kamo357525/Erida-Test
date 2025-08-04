@@ -1,0 +1,46 @@
+.carInfoTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carInfoItem{
+    display: flex;
+    align-items: center;
+}
+
+.bodyTitle{
+    color: white;
+}
+
+.bodyTitleYear{
+    color: gray;
+    margin-left: 15px;
+}
+
+.titleIcons{
+    display: flex;
+    align-items: center;
+}
+
+.titleIcon{
+    margin: 0 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.bodyItem{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carInfo{
+    width: 63vw;
+}
+
+.userInfo{
+    width: 31vw;
+}

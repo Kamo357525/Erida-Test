@@ -1,0 +1,22 @@
+.pagination{
+    color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.activePagination{
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+    color: gray;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.paginationBlock{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+.titleYear{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.block{
+    margin-top: 20px;
+}
+
+.selects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.to{
+    padding: 12px;
+    text-align: center;
+    font-size: 30px;
+}

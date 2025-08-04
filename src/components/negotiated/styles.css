@@ -1,0 +1,10 @@
+.negotiated{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.negotiatedTitle{
+    font-size: 20px;
+    color: gray;
+}

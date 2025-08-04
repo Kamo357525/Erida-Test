@@ -1,0 +1,46 @@
+.carouselBlock {
+    width: 100%;
+    margin: 0 auto;
+    /*height: 400px;*/
+}
+
+.photoBlock {
+    width: 100%;
+    height: 500px;
+}
+
+.carPhotos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.carousel .thumbs-wrapper {
+    margin: 10px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 105px;
+}
+
+.carousel .thumb {
+    border: 2px solid white !important;
+    border-radius: 15px;
+    margin: 0 25px;
+    padding: 0 !important;
+    transition: border 0.3s;
+    width: 150px !important;
+    height: 100%;
+    cursor: pointer;
+}
+
+.carousel .thumb.selected {
+    border: 4px solid transparent !important;
+}
+
+.carousel .thumb img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
