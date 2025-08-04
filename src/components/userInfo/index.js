@@ -103,7 +103,7 @@ function UserInfo({car}) {
                 <div className='agree'>
                     <div className='agreeCheckbox'>
                         <div className='checkBox' >
-                            <label className="custom-checkbox" h style={{cursor:"pointer"}}>
+                            <label className="custom-checkbox" style={{cursor:"pointer"}}>
                                 <input
                                     onChange={()=>setCheck(!check)}
                                     checked={check}
