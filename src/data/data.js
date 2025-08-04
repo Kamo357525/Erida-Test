@@ -6,11 +6,11 @@ import controlImage from '@/icons/Ficon.svg';
 
 let carData = [
     {
-        "id": "c93cc81a-2d73-414e-ac6b-8a6eds85b5a92",
+        "id": "nor dat",
         "location": "New York",
         "body_type": "Convertible",
         "year": 2023,
-        "make": "Chevrolet",git
+        "make": "Chevrolet",
         "model": "Malibu",
         "price": 23968,
         "negotiable_price": false,
