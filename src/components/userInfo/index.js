@@ -109,7 +109,7 @@ function UserInfo({car}) {
                                     checked={check}
                                     type="checkbox"
                                 />
-                                <span className="checkmark"></span>
+                                <span className="checkmark checkmarkCar"></span>
                                 <div className='checkboxTitle'><p>I agree to receive price drop alerts on this vehicle and helpful shopping information.</p>
                                 </div>
                                 </label>

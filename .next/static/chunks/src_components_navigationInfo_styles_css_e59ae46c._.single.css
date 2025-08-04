@@ -1,0 +1,21 @@
+/* [project]/src/components/navigationInfo/styles.css [app-client] (css) */
+.navigationBlock {
+  flex-direction: row;
+  align-items: center;
+  margin: 15px auto;
+  display: flex;
+}
+
+.navInfo {
+  cursor: pointer;
+  color: gray;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.activeNavigation {
+  color: #fff;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=src_components_navigationInfo_styles_css_e59ae46c._.single.css.map*/

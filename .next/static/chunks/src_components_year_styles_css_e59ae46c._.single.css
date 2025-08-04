@@ -1,0 +1,23 @@
+/* [project]/src/components/year/styles.css [app-client] (css) */
+.titleYear {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.block {
+  margin-top: 20px;
+}
+
+.selects {
+  justify-content: space-between;
+  display: flex;
+}
+
+.to {
+  text-align: center;
+  padding: 12px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=src_components_year_styles_css_e59ae46c._.single.css.map*/

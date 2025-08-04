@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/header/styles.css"],"sourcesContent":[".headerBody{\n    width: 100%;\n    height: 80px;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: space-between;\n}"],"names":[],"mappings":"AAAA"}}]
+}

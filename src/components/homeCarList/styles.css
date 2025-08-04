@@ -9,7 +9,7 @@
 }
 
 .carImage{
-    width: 30%;
+    width: 37%;
     height: 100%;
     object-fit: cover;
     border-bottom-left-radius: 10px;
@@ -17,9 +17,9 @@
 }
 
 .titleBlock{
-    padding: 50px;
+    padding: 15px 30px;
     width: 100%;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     background-color: rgba(29,39,53,60%)
 }
 

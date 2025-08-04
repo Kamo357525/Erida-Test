@@ -67,8 +67,6 @@ function InterestedItem({car}) {
                 </div>
             </div>
         </Link>
-
-
     );
 }
 

@@ -1,7 +1,5 @@
 .carouselBlock {
     width: 100%;
-    margin: 0 auto;
-    /*height: 400px;*/
 }
 
 .photoBlock {
@@ -15,7 +13,6 @@
     object-fit: cover;
 }
 
-
 .carousel .thumbs-wrapper {
     margin: 10px 0;
     overflow: hidden;
@@ -27,7 +24,6 @@
 .carousel .thumb {
     border: 2px solid white !important;
     border-radius: 15px;
-    margin: 0 25px;
     padding: 0 !important;
     transition: border 0.3s;
     width: 150px !important;

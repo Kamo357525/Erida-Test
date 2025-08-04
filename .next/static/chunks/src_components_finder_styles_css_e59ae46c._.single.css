@@ -1,0 +1,21 @@
+/* [project]/src/components/finder/styles.css [app-client] (css) */
+.finder {
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.finderItem {
+  background-color: #152230;
+  border-radius: 5px;
+  width: 230px;
+  height: 220px;
+  padding: 50px;
+}
+
+.finderTitle {
+  margin-top: 13px;
+}
+
+/*# sourceMappingURL=src_components_finder_styles_css_e59ae46c._.single.css.map*/

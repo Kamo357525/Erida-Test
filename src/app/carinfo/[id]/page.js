@@ -13,9 +13,7 @@ function Page(props) {
 
     return (
         <div>
-          <Header/>
             <ItemBody car={car}/>
-          <Footer/>
         </div>
     );
 }

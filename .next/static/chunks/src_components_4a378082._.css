@@ -1,0 +1,665 @@
+/* [project]/src/components/header/styles.css [app-client] (css) */
+.headerBody {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+/* [project]/src/components/logo/styles.css [app-client] (css) */
+.logoBody {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logoBody:hover {
+  cursor: pointer;
+}
+
+.logoImage {
+  width: 34px;
+  height: 34px;
+}
+
+.titleLogo {
+  margin-left: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* [project]/src/components/navigation/styles.css [app-client] (css) */
+.headerNavBlock {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.titleHeader {
+  text-align: center;
+  margin: auto 20px;
+  display: inline-block;
+}
+
+.titleHeader:hover {
+  font-size: 24px;
+}
+
+.itemsHeader {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.itemIcon {
+  text-align: center;
+  margin-top: -4px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.titleHeader p {
+  font-size: 20px;
+  transition: all .5s;
+}
+
+.titleHeader p:hover {
+  font-size: 24px;
+}
+
+/* [project]/src/components/login/styles.css [app-client] (css) */
+.userBlock {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sell {
+  background-color: #d85151;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 40px;
+  display: flex;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: auto 12px;
+}
+
+.icon:hover, .sell:hover {
+  cursor: pointer;
+}
+
+.sellAdd {
+  margin: 0 4px;
+  font-size: 18px;
+}
+
+.add {
+  font-size: 22px;
+}
+
+/* [project]/src/components/navigationInfo/styles.css [app-client] (css) */
+.navigationBlock {
+  flex-direction: row;
+  align-items: center;
+  margin: 15px auto;
+  display: flex;
+}
+
+.navInfo {
+  cursor: pointer;
+  color: gray;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.activeNavigation {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* [project]/src/components/footer/styles.css [app-client] (css) */
+.footer {
+  margin-top: 80px;
+}
+
+.infoBlock {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+}
+
+.itemBlock {
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.infoIcon {
+  width: 23px;
+  height: 23px;
+  margin: 0 10px;
+}
+
+.titles {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 55px;
+  display: flex;
+}
+
+.titleName {
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.titleItems:hover {
+  cursor: pointer;
+}
+
+.titleItems {
+  margin: 13px 0;
+  font-size: 18px;
+}
+
+.socBlock {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+}
+
+.iconsSoc {
+  width: 35px;
+  height: 35px;
+}
+
+.iconItems {
+  background-color: gray;
+  border: 2px solid gray;
+  border-radius: 7px;
+  flex-direction: row;
+  align-items: center;
+  width: 165px;
+  height: 55px;
+  padding: 10px;
+  display: flex;
+}
+
+.iconGoogle {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+}
+
+.studioBlock {
+  justify-content: space-between;
+  margin: 50px 0;
+  display: flex;
+}
+
+.studioTitleBlock {
+  align-items: center;
+  display: flex;
+}
+
+.studioIcon {
+  cursor: pointer;
+  width: 22px;
+  height: 20px;
+  margin: 0 15px;
+}
+
+/* [project]/src/components/homeCarList/styles.css [app-client] (css) */
+.carListBlock {
+  width: 75vw;
+}
+
+.carItem {
+  height: 290px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.carImage {
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 37%;
+  height: 100%;
+}
+
+.titleBlock {
+  background-color: rgba(29, 39, 53, .6);
+  width: 100%;
+  padding: 15px 30px;
+}
+
+.title {
+  color: #fff;
+}
+
+.dateItem {
+  color: gray;
+  font-size: 18px;
+}
+
+.dateBlock {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.icons {
+  display: flex;
+}
+
+.iconBlock {
+  border: 2px solid gray;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 5px;
+  display: flex;
+}
+
+.iconImage {
+  width: 18px;
+  height: 18px;
+}
+
+.markBlock {
+  align-items: center;
+  display: flex;
+}
+
+.markInfo {
+  color: #fff;
+  font-size: 24px;
+}
+
+.carYear {
+  color: gray;
+  margin-left: 7px;
+  font-size: 16px;
+}
+
+.price {
+  color: #fff;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.titleCar {
+  text-align: start;
+  color: gray;
+  margin-top: 5px;
+  margin-bottom: 18px;
+  font-size: 18px;
+}
+
+.iconsInfo {
+  border-top: 2px solid gray;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  display: flex;
+}
+
+.iconInfoBlock {
+  display: flex;
+}
+
+.iconInfoBlock p {
+  color: gray;
+  margin-left: 10px;
+}
+
+.noResult {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 24px;
+}
+
+.price {
+  margin: 13px 0 !important;
+}
+
+/* [project]/src/components/paginatin/styles.css [app-client] (css) */
+.pagination {
+  color: gray;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 22px;
+}
+
+.activePagination {
+  color: gray;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.paginationBlock {
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* [project]/src/components/sorting/styles.css [app-client] (css) */
+.groupStyles {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.CSSProperties {
+  color: #172b4d;
+  text-align: center;
+  background-color: #ebecf0;
+  border-radius: 2em;
+  min-width: 1px;
+  padding: .166667em .5em;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  display: inline-block;
+}
+
+/* [project]/src/components/homeCarFilter/styles.css [app-client] (css) */
+.filterBlock {
+  width: 25vw;
+  padding-right: 100px;
+}
+
+/* [project]/src/components/checkbox/styles.css [app-client] (css) */
+.checkBoxHome {
+  margin-top: 20px;
+}
+
+.checkBox {
+  margin-bottom: 8px;
+}
+
+.checkBoxName {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.custom-checkbox {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  align-items: center;
+  font-size: 16px;
+  display: inline-flex;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.checkmark {
+  border: 2px solid #555;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  transition: all .4s;
+  position: relative;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-color: #fff;
+  border: 3px solid #fff;
+  transition: all 1s;
+}
+
+.checkmark:after {
+  content: "";
+  opacity: 0;
+  border: 2px solid #000;
+  border-width: 0 2px 2px 0;
+  width: 5px;
+  height: 10px;
+  transition: all .2s;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  transform: rotate(45deg)scale(.8);
+}
+
+.custom-checkbox input:checked + .checkmark:after {
+  opacity: 1;
+}
+
+.checkBoxList {
+  max-width: 850px;
+}
+
+.scroll-box {
+  border-radius: 3px;
+  max-height: 157px;
+  overflow-y: auto;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  opacity: 0;
+  border-radius: 1px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: gray;
+  border-radius: 3px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* [project]/src/components/inputSearch/styles.css [app-client] (css) */
+.input {
+  color: #fff;
+  background-color: #1a1a1a;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.searchBlock {
+  margin-bottom: 15px;
+}
+
+/* [project]/src/components/select/styles.css [app-client] (css) */
+.titleMark {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.selectBlock {
+  margin-top: 15px;
+}
+
+/* [project]/src/components/year/styles.css [app-client] (css) */
+.titleYear {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.block {
+  margin-top: 20px;
+}
+
+.selects {
+  justify-content: space-between;
+  display: flex;
+}
+
+.to {
+  text-align: center;
+  padding: 12px;
+  font-size: 30px;
+}
+
+/* [project]/src/components/sliderRange/styles.css [app-client] (css) */
+.priceBlock {
+  margin-top: 30px;
+}
+
+.inputsBlock {
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.inputBlock {
+  border: 2px solid rgba(29, 39, 53, .9);
+  border-radius: 10px;
+  align-items: center;
+  padding: 3px;
+  display: flex;
+}
+
+input {
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgba(0, 123, 255, 0);
+  border: 2px solid rgba(0, 123, 255, 0);
+  border-radius: 6px;
+  outline: none;
+  width: 150px;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: border-color .3s;
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.drob {
+  color: #fff;
+  font-size: 30px;
+}
+
+.price {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.titlePrice {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+/* [project]/src/components/negotiated/styles.css [app-client] (css) */
+.negotiated {
+  align-items: center;
+  margin-top: 25px;
+  display: flex;
+}
+
+.negotiatedTitle {
+  color: gray;
+  font-size: 20px;
+}
+
+/* [project]/src/components/mileage/styles.css [app-client] (css) */
+.mileageTitle {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+/* [project]/src/components/homeBody/styles.css [app-client] (css) */
+.homeBody {
+  border-top: 2px solid gray;
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+}
+
+/* [project]/src/components/filterInfo/styles.css [app-client] (css) */
+.filterInfoBlock {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  transition: all 1s;
+  display: flex;
+}
+
+.itemBlock {
+  align-items: center;
+  display: flex;
+}
+
+.result {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.itemFilterInfo {
+  background-color: rgba(51, 61, 76, .9);
+  border-radius: 20px;
+  align-items: center;
+  margin: auto 6px;
+  padding: 4px 10px;
+  display: flex;
+}
+
+.itemFilterInfo .argumentName {
+  font-size: 16px;
+}
+
+.clear {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.close {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=src_components_4a378082._.css.map*/

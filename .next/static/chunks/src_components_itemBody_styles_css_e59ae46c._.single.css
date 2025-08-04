@@ -1,0 +1,50 @@
+/* [project]/src/components/itemBody/styles.css [app-client] (css) */
+.carInfoTitle {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.carInfoItem {
+  align-items: center;
+  display: flex;
+}
+
+.bodyTitle {
+  color: #fff;
+}
+
+.bodyTitleYear {
+  color: gray;
+  margin-left: 15px;
+}
+
+.titleIcons {
+  align-items: center;
+  display: flex;
+}
+
+.titleIcon {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  margin: 0 10px;
+}
+
+.bodyItem {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.carInfo {
+  width: 63vw;
+  padding-right: 30px;
+}
+
+.userInfo {
+  width: 31vw;
+}
+
+/*# sourceMappingURL=src_components_itemBody_styles_css_e59ae46c._.single.css.map*/

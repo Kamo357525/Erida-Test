@@ -38,7 +38,6 @@
 .titleName{
     margin-bottom: 25px;
     font-size: 22px;
-    /*cursor: pointer;*/
 }
 
 .titleItems:hover{
@@ -65,7 +64,6 @@
 .iconItems{
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
     align-items: center;
     border: 2px solid gray;
     border-radius: 7px;

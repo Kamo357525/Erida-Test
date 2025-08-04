@@ -1,7 +1,6 @@
 import { create } from 'zustand';
 import cars from "@/data/data";
 import {defaultFilters, price} from '@/store/helpers';
-import Negotiated from "@/components/negotiated";
 
 const useCarsStore = create((set) => ({
     cars,
@@ -117,4 +116,3 @@ const useCarsStore = create((set) => ({
 }));
 
 export { useCarsStore };
-

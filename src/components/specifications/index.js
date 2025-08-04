@@ -23,9 +23,6 @@ function Specifications({car}) {
                     <div className='itemBlock'><p className='itemKey'>VIN</p><p className='itemValue'>&ensp; 2VW821AU9JM754284</p></div>
                 </div>
             </div>
-            <div>
-
-            </div>
         </div>
     );
 }

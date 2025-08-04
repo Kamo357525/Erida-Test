@@ -1,0 +1,45 @@
+/* [project]/src/components/filterInfo/styles.css [app-client] (css) */
+.filterInfoBlock {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  transition: all 1s;
+  display: flex;
+}
+
+.itemBlock {
+  align-items: center;
+  display: flex;
+}
+
+.result {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.itemFilterInfo {
+  background-color: rgba(51, 61, 76, .9);
+  border-radius: 20px;
+  align-items: center;
+  margin: auto 6px;
+  padding: 4px 10px;
+  display: flex;
+}
+
+.itemFilterInfo .argumentName {
+  font-size: 16px;
+}
+
+.clear {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.close {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=src_components_filterInfo_styles_css_e59ae46c._.single.css.map*/

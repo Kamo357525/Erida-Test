@@ -1,6 +1,7 @@
 .verifiedBlock{
     display: flex;
     align-items: center;
+    margin-bottom:  20px;
 }
 
 .used{
@@ -24,11 +25,22 @@
 
 .price{
     margin: 10px 0;
+    font-size: 22px;
 }
 
 .infoInterestedUser{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.infoInterestedUser img{
+    width: 20px;
+    height: 20px;
+}
+
+.infoInterestedUser p{
+    font-size: 18px;
 }
 
 .userInfoBlock{
@@ -40,8 +52,8 @@
 }
 
 .userPhoto{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -53,13 +65,13 @@
 }
 
 .star{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     object-fit: cover;
 }
 
 .ratingItem{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
 }
 
@@ -71,17 +83,18 @@
 .ratingCountItem{
     color: gray;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
     text-wrap: nowrap;
 }
 
 .userNameTitle{
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .private{
-    padding: 5px;
+    padding: 10px;
+    border-radius: 5px;
     background-color: rgba(17,24,39,100);
 }
 
@@ -95,7 +108,7 @@
 }
 
 .otherPrivate{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .telephoneNumber{
@@ -106,9 +119,10 @@
 }
 
 .telephoneTitle{
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 }
+
 .num{
     font-size: 30px;
 }
@@ -116,7 +130,7 @@
 .telephone{
     display: flex;
     border-radius: 10px;
-    padding: 10px 35px;
+    padding: 10px 25px;
     border: 2px solid white;
     align-items: center;
     cursor: pointer;
@@ -131,8 +145,9 @@
     cursor: pointer;
 }
 .email p{
-    font-size: 22px;
+    font-size: 18px;
 }
+
 .emailPhoto{
     object-fit: cover;
     width: 20px;
@@ -195,7 +210,6 @@
 
 .checkBox{
     margin-bottom: 8px;
-
 }
 
 .custom-checkbox {
@@ -212,4 +226,13 @@
 
 .checkboxTitle{
     margin-top: 25px;
+}
+
+.subscribeTitle p{
+    font-size: 18px;
+}
+
+.checkBox .checkmarkCar{
+    width: 30px ;
+    margin-top: 5px;
 }

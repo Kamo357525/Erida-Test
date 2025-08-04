@@ -2,8 +2,7 @@ import React from 'react';
 import HomeCarList from "@/components/homeCarList";
 import HomeCarFilter from "@/components/homeCarFilter";
 import './styles.css'
-import FilterInfo from "@/filterInfo";
-import Footer from "@/components/footer";
+import FilterInfo from "@/components/filterInfo";
 
 function HomeBody(props) {
     return (

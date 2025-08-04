@@ -1,0 +1,56 @@
+/* [project]/src/components/sliderRange/styles.css [app-client] (css) */
+.priceBlock {
+  margin-top: 30px;
+}
+
+.inputsBlock {
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.inputBlock {
+  border: 2px solid rgba(29, 39, 53, .9);
+  border-radius: 10px;
+  align-items: center;
+  padding: 3px;
+  display: flex;
+}
+
+input {
+  box-sizing: border-box;
+  color: #fff;
+  background-color: rgba(0, 123, 255, 0);
+  border: 2px solid rgba(0, 123, 255, 0);
+  border-radius: 6px;
+  outline: none;
+  width: 150px;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: border-color .3s;
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.drob {
+  color: #fff;
+  font-size: 30px;
+}
+
+.price {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.titlePrice {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=src_components_sliderRange_styles_css_e59ae46c._.single.css.map*/

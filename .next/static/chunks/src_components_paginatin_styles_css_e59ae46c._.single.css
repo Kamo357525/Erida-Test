@@ -1,0 +1,25 @@
+/* [project]/src/components/paginatin/styles.css [app-client] (css) */
+.pagination {
+  color: gray;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 22px;
+}
+
+.activePagination {
+  color: gray;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.paginationBlock {
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_paginatin_styles_css_e59ae46c._.single.css.map*/

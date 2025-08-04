@@ -6,10 +6,10 @@ import { price } from "@/store/helpers";
 import './styles.css';
 
 function valuetext(value) {
-    return `${value} ֏`;
+    return `${value} $`;
 }
 
-export default function PriceRangeSlider() {
+function PriceRangeSlider() {
     const { filterPrice, setFilterPrice } = useCarsStore();
     const [localPrice, setLocalPrice] = useState(price);       // For Slider
     const [startEnd] = useState(price);
@@ -33,7 +33,7 @@ export default function PriceRangeSlider() {
             const clamped = [from, to];
             setLocalPrice(clamped);
             setFilterPrice(clamped);
-        }, 500),
+        }, 300),
         [startEnd, localPrice, setFilterPrice]
     );
 
@@ -69,7 +69,6 @@ export default function PriceRangeSlider() {
         setLocalInput([String(clamped[0]), String(clamped[1])]);
     };
 
-    // Sync from store
     useEffect(() => {
         if (filterPrice) {
             setLocalPrice(filterPrice);
@@ -165,3 +164,5 @@ export default function PriceRangeSlider() {
         </div>
     );
 }
+
+export default PriceRangeSlider

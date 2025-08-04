@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/paginatin/styles.css"],"sourcesContent":[".pagination{\n    color: gray;\n    margin: 0 5px;\n    cursor: pointer;\n    font-size: 22px;\n}\n\n.activePagination{\n    background-color: white;\n    border-radius: 3px;\n    padding: 2px;\n    color: gray;\n    font-size: 20px;\n    margin: 0 5px;\n    cursor: pointer;\n}\n\n.paginationBlock{\n    display: flex;\n    justify-content: center;\n    margin: 0 auto;\n}"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;;;;;AAUA"}}]
+}

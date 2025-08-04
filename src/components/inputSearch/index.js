@@ -41,7 +41,6 @@ function InputSearch(props) {
         return str
     }
 
-
     return (
         <div className='searchBlock'>
             <input

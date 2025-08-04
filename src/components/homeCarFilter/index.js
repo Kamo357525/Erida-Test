@@ -9,8 +9,6 @@ import {markFilter} from '@/store/helpers'
 import Year from "@/components/year";
 import Range from "@/components/sliderRange";
 import Negotiated from "@/components/negotiated";
-import Mileage from "@/components/mileage";
-
 
 function HomeCarFilter(props) {
 

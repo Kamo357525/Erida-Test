@@ -6,22 +6,6 @@ import controlImage from '@/icons/Ficon.svg';
 
 let carData = [
     {
-        "id": "nor datsd23",
-        "location": "New York",
-        "body_type": "Convertible",
-        "year": 2023,
-        "make": "Chevrolet",
-        "model": "Malibu",
-        "price": 23968,
-        "negotiable_price": false,
-        "drivetrain": "Rear Wheel Drive",
-        "fuel_type": "Electric",
-        "transmission": "Automatic",
-        "mileage": 56422,
-        "color": "Red",
-        "seller_type": "Dealer"
-    },
-    {
         "id": "c93cc81a-2d73-414e-ac6b-8a6eb85b5a92",
         "location": "New York",
         "body_type": "Convertible",

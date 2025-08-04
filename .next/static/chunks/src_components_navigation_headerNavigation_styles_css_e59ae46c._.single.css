@@ -1,0 +1,42 @@
+/* [project]/src/components/navigation/headerNavigation/styles.css [app-client] (css) */
+.headerNavBlock {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.titleHeader {
+  text-align: center;
+  margin: auto 20px;
+  display: inline-block;
+}
+
+.titleHeader:hover {
+  font-size: 24px;
+}
+
+.itemsHeader {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.itemIcon {
+  text-align: center;
+  margin-top: -4px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.titleHeader p {
+  font-size: 20px;
+  transition: all .5s;
+}
+
+.titleHeader p:hover {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=src_components_navigation_headerNavigation_styles_css_e59ae46c._.single.css.map*/

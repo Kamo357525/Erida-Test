@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {userDescription} from "@/data/data";
-import './styles.css'; // make sure to import your css file
+import './styles.css';
 
 function Index(props) {
     const [isExpanded, setIsExpanded] = useState(false);

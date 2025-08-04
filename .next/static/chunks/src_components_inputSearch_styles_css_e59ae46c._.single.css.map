@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/inputSearch/styles.css"],"sourcesContent":[".input{\n    width: 80%;\n    height: 40px;\n    color: white;\n    font-size: 18px;\n    background-color: #1a1a1a;\n    border: 2px solid gray;\n    border-radius: 10px;\n    margin: 10px 0;\n}\n\n.searchBlock{\n    margin-bottom: 15px;\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA"}}]
+}

@@ -4,13 +4,11 @@ import {useCarsStore} from "@/store/car";
 import {Switch} from "@mui/material";
 import './styles.css'
 
-
 const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
-export default function Negotiated() {
+function Negotiated() {
     const { filterNegotiated, setFilterNegotiated } = useCarsStore();
     const [localChecked, setLocalChecked] = useState(filterNegotiated);
-
 
     const debouncedSetFilter = React.useMemo(() =>
         debounce(setFilterNegotiated, 100), [setFilterNegotiated]);
@@ -19,7 +17,6 @@ export default function Negotiated() {
         setLocalChecked(e.target.checked);
         debouncedSetFilter(e.target.checked);
     };
-
 
     useEffect(() => {
         setLocalChecked(filterNegotiated);
@@ -53,3 +50,4 @@ export default function Negotiated() {
     );
 }
 
+export default Negotiated;
